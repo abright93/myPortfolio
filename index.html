@@ -2,10 +2,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
     
@@ -15,9 +12,9 @@
 <body>
     <!-- Header/Navigation -->
  <nav>  
-    <div class="uk-position-relative">
+    <div class="uk-padding-large uk-position-relative">
         <img src="images/light.jpg" alt="">
-        <div class="uk-position-top">
+        <div class="uk-position-top-center">
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav">
@@ -36,63 +33,24 @@
     </div>    
 </nav>   
     
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- <header>
-        <h1>Alexandra <span class="alex">"Alex"</span> Bright</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about_me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header> -->
-
-<!-- About Me -->
-
-<center><img src=".//assets/images/bitmoji.PNG" alt="bitmoji" style="width:70%" class="center"></center>
-<section class="content">
-    <a id="about_me">
-        <center><h2><u>About Me</u></h2></center></a>
-        <p>After working in child care for about eight years, I decided I wanted to change career paths. 
-        I've always had an interest in web development every since I was a child. When I created my first MySpace profile, I spent more time coding my profile
-    than I did interracting with people. I hope this can come back full circle for me, and I can excel in this field. </p>
-        </section></p>
-    
+    <!-- About Me -->
+    <div class="uk-padding-large uk-child-width-1-2@m uk-grid-medium uk-text-center uk-flex-center" a id="about_me" uk-grid>
+        <div><img src="./assets/images/profilepicture.png" alt="picture" style="width:60%" class="center"></div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><h2><u>About Me</u></h2></center></a>
+            <center><p>After working in child care for about eight years, I decided I wanted to change career paths. 
+            I've always had an interest in web development every since I was a child. When I created my first MySpace profile, I spent more time coding my profile
+        than I did interracting with people. I hope this can come back full circle for me, and I can excel in this field. </p></center></div>
+    </div>
 
 <!-- Work/ -->
         
-<div class="uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" a id="work" uk-grid>
+<div class="uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center uk-grid-small" a id="work" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body"><img src="./assets/images/password screenshot.png" alt="password generator" style="width:100%">
             <h3>Password Generator</h3></div>
