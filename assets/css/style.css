@@ -37,9 +37,9 @@ header nav ul li {
 } 
  
  body {
-	background-image: url(../images/pastelsky.JPG);
-	background-repeat: repeat;
-	background-color: rgb(98, 175, 219);
+	/* background-image: url(../images/pastelsky.JPG);
+	background-repeat: repeat; */
+	background-color: rgb(26, 34, 39);
 	padding: 20px;
 	font-family: Arial;
   }
@@ -49,10 +49,10 @@ header nav ul li {
 	margin: auto;
   }
   
-  h1 {
+  h2 {
 	font-size: 50px;
 	word-break: break-all;
-	color: white
+	color: E9D3D0;
   }
 
   .row {
@@ -112,8 +112,12 @@ header nav ul li {
   li a:hover {
 	background-color: #111111;
   }
+
+#ab {
+	background-color: #111111;
+  }
   
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
 	.column {
 	  width: 50%;
 	}
@@ -123,4 +127,4 @@ header nav ul li {
 	.column {
 	  width: 100%;
 	}
-  }
+  } */
